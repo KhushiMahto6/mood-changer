@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -28,3 +29,61 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+=======
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+   
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+    transition: background 0.5s;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    color: #333;
+}
+
+#mood-text {
+    font-size: 1.5em;
+    margin: 20px 0;
+    font-weight: 400;
+    padding: 20px;
+    width: 30%;
+    background: white;
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 10px; 
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#emoji-animation {
+    position: absolute;
+    font-size: 3rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+>>>>>>> 0f32994 (Initial commit)
